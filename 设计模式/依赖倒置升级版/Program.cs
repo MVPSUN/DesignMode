@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using 依赖倒置升级版;
+using DemoClass;
 
 namespace 依赖倒置升级版
 {
@@ -14,6 +15,7 @@ namespace 依赖倒置升级版
             AttendanceRecord attendanceRecord = new AttendanceRecord();
             IWorkShift workShift = new WorkShiftForFix();
             attendanceRecord.GetWorkShift(workShift);
+            var result = Ceshi.ReplaceHtmlTag("zhangsannihaoa");
         }
     }
 }
