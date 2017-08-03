@@ -1,0 +1,6 @@
+E:\MyProject\DesignMode\设计模式\Observer\bin\Debug\Observer.exe.config
+E:\MyProject\DesignMode\设计模式\Observer\bin\Debug\Observer.exe
+E:\MyProject\DesignMode\设计模式\Observer\bin\Debug\Observer.pdb
+E:\MyProject\DesignMode\设计模式\Observer\obj\Debug\Observer.csprojResolveAssemblyReference.cache
+E:\MyProject\DesignMode\设计模式\Observer\obj\Debug\Observer.exe
+E:\MyProject\DesignMode\设计模式\Observer\obj\Debug\Observer.pdb
