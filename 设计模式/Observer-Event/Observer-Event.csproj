@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2CBEBD5C-004F-4CF8-884C-D5DBC3EAB79E}</ProjectGuid>
+    <ProjectGuid>{D77D9D94-ADA6-4799-AC12-559531232F9E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NewDesignModel</RootNamespace>
-    <AssemblyName>NewDesignModel</AssemblyName>
+    <RootNamespace>Observer_Event</RootNamespace>
+    <AssemblyName>Observer-Event</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Args\ObserverEventArgs.cs" />
+    <Compile Include="Observable\IObservable.cs" />
+    <Compile Include="Observable\ObservablePerson.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\ObserverPersonWangWu.cs" />
+    <Compile Include="Observer\ObserverPersonZhangSan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

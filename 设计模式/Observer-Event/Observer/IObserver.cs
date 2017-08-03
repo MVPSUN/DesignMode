@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 依赖倒置升级版
+namespace Observer_Event
 {
-    public class WorkShiftTemlate
+   public interface IObserver
     {
-        public DateTime dt1;
-        public DateTime dt2;
+        void update(object sender, EventArgs ObserverEventArgs);
     }
 }
