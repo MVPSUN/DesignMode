@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using 依赖倒置.Person;
 using 依赖倒置.Card;
+using System.Resources;
 
 namespace 依赖倒置
 {
